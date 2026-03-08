@@ -24,7 +24,7 @@ This repository contains machine learning pipelines designed to evaluate, predic
 
 To run the notebooks, you will need the following libraries. Most can be installed directly within Google Colab:
 
-```bash
+
 pip install transformers datasets evaluate fasttext torch requests pandas numpy scikit-learn tiktoken
 
 🚀 Usage Guide
