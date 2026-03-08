@@ -42,9 +42,9 @@ pip install transformers datasets evaluate fasttext torch requests pandas numpy 
 ### 2. Data Preparation
 Before training, ensure your datasets are placed in the correct directories:
 
-**For the Router (mainLatest1_clean.ipynb):** Ensure Soft_Label_Balanced_Dataset.csv is uploaded to your working directory. This file should contain the prompts and their target model labels.
+1. **For the Router (mainLatest1_clean.ipynb):** Ensure Soft_Label_Balanced_Dataset.csv is uploaded to your working directory. This file should contain the prompts and their target model labels.
 
-**For the Predictor (model.ipynb):** Place your dataset inside a processed_data/ directory. The structure should be organized by the target model name.
+2. **For the Predictor (model.ipynb):** Place your dataset inside a processed_data/ directory. The structure should be organized by the target model name.
 
 ### 3. Training the Performance Predictors (model.ipynb)
 This step trains the regression models that predict how well a specific LLM will perform on a scale of 0.0 to 1.0.
